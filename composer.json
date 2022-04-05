@@ -16,6 +16,8 @@
             "source\\": "source/"
         },
         "files":[
+            "source/Boot/Config.php",
+            "source/Boot/Helpers.php"
         ]
     },
     "require":{
