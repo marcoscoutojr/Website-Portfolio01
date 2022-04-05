@@ -1,7 +1,17 @@
 <?php
+ob_start();
 
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
+require __DIR__."/vendor/autoload.php";
+
+/*
+ * :: BOOTSTRAP ::
  */
 
+use CoffeeCode\Router\Router;
+
+$route = new Router(url(), ":");
+
+
+
+
+ob_end_flush();
