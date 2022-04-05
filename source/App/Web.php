@@ -22,8 +22,13 @@ class Web extends Controller{
      * @return void
      */
     public function home(): void{
+        $head = $this->seo->render(
+                CONF_SITE_NAME. " - " .CONF_SITE_TITLE, 
+                CONF_SITE_DESC, 
+                url(), 
+                theme("/assets/images/share.jpg"));
         echo $this->view->render("home",[
-            
+            'head' => $head
         ]);
     }
     

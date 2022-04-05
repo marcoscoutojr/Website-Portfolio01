@@ -2,9 +2,22 @@
  * :: GENERAL ::
  */
 
-
+:root{
+    --main-color: #ff2828;
+}
 
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #fce8e8;
+    padding-left: 30rem;
+}
+
+section{
+    padding: .5rem 5%;
+    
 }

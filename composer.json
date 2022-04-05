@@ -22,6 +22,7 @@
     },
     "require":{
         "league/plates": "v4.0.0-alpha",
-        "coffeecode/router": "1.0.*"
+        "coffeecode/router": "1.0.*",
+        "coffeecode/optimizer": "2.0.*"
     }
 }

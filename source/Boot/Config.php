@@ -23,7 +23,10 @@ define("CONF_URL_TEST","http://localhost/projects/portfolios/portfolio01");
 /*
  * :: SITE ::
  */
-define("CONF_SITE_NAME","");
+define("CONF_SITE_NAME","Portfólio");
+define("CONF_SITE_TITLE","01");
+define("CONF_SITE_DESC","Descriptions");
+define("CONF_SITE_LANG","pt_BR");
 
 
 
