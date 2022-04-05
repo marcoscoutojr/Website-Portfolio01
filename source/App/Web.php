@@ -2,7 +2,7 @@
 
 namespace Source\App;
 
-use Source\Core;
+use Source\Core\Controller;
 
 /**
  * :: Class Web Controller ::
@@ -23,6 +23,12 @@ class Web extends Controller{
      */
     public function home(): void{
         echo $this->view->render("home",[
+            
+        ]);
+    }
+    
+    public function error(): void{
+        echo $this->view->render("error",[
             
         ]);
     }

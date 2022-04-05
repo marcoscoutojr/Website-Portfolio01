@@ -13,7 +13,7 @@
     },
     "autoload":{
         "psr-4":{
-            "source\\": "source/"
+            "Source\\": "source/"
         },
         "files":[
             "source/Boot/Config.php",
