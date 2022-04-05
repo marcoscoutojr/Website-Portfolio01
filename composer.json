@@ -1,0 +1,25 @@
+{
+    "name": "marcoscoutojr/website-portfolio01",
+    "description": "Treinamento em HTML, CSS, Javascript e PHP",
+    "minimum-stability":"stable",
+    "authors": [{
+            "name": "Marcos Couto Jr.",
+            "email": "suporte@arphemj.com.br",
+            "homepage": "http://www.arphemj.com.br",
+            "role": "Developer"
+    }],
+    "config":{
+        "vendor-dir": "vendor"
+    },
+    "autoload":{
+        "psr-4":{
+            "source\\": "source/"
+        },
+        "files":[
+        ]
+    },
+    "require":{
+        "league/plates": "v4.0.0-alpha",
+        "coffeecode/router": "1.0.*"
+    }
+}
